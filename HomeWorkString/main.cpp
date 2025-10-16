@@ -14,6 +14,7 @@ bool isValidString(string s) {
 
     for (int i = 0; i < s.size(); i++) {
         char c = s[i];
+        //COMMENT YOUR CODE PLEASE !!
         for (int j = 0; j < 26; j++) {
             if (c == 'a' + j) {
                 freq[j]++;
